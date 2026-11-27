@@ -161,7 +161,7 @@ public class AnalysisService : IHost, IHostedService
         }
         else if (sourceUri.Scheme.Equals("file", StringComparison.InvariantCultureIgnoreCase))
         {
-            new Thread(new ThreadStart(delegate { FileWorker(new FileStream(sourceUri.AbsolutePath, FileMode.Open)); })).Start();
+            new Thread(new ThreadStart(delegate { FileWorker(new FileStream(sourceUri.AbsolutePath.Replace("%20", " "), FileMode.Open)); })).Start();
         }
         else
         {
@@ -282,7 +282,9 @@ public class AnalysisService : IHost, IHostedService
 
         _pendingExit = true;
         Thread.Sleep(250);
-        
+
+        stream.Dispose();
+
         PrintConsoleFeedback();
         Console.WriteLine("Completed reading of file - hit enter to exit!");
         Console.ReadLine();
