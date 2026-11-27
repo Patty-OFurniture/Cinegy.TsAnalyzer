@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TsAnalyser-master/Cinegy.TsAnalyzer/Cinegy.TsAnalyzer.csproj" />
+  <Project Path="Cinegy.SRT-master/Cinegy.Srt.Recv/Cinegy.Srt.Recv.csproj" />
+  <Project Path="Cinegy.SRT-master/Cinegy.Srt.Send/Cinegy.Srt.Send.csproj" />
+  <Project Path="TsAnalysis-master/Cinegy.TsAnalysis/Cinegy.TsAnalysis.csproj" />
+</Solution>
