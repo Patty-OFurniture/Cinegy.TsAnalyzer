@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinegy.TsDecoder", "Cinegy.TsDecoder\Cinegy.TsDecoder.csproj", "{6D63F8EF-963F-4998-93AD-BF6DBCCF3D97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cinegy.TsDecoder.Tests", "Cinegy.TsDecoder.Tests\Cinegy.TsDecoder.Tests.csproj", "{C180CE0E-FCBD-4E58-B9A3-C798D00B7D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{782C9245-661F-4DA2-98D5-DA836FD6A08F}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D63F8EF-963F-4998-93AD-BF6DBCCF3D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D63F8EF-963F-4998-93AD-BF6DBCCF3D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D63F8EF-963F-4998-93AD-BF6DBCCF3D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D63F8EF-963F-4998-93AD-BF6DBCCF3D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C180CE0E-FCBD-4E58-B9A3-C798D00B7D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C180CE0E-FCBD-4E58-B9A3-C798D00B7D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C180CE0E-FCBD-4E58-B9A3-C798D00B7D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C180CE0E-FCBD-4E58-B9A3-C798D00B7D18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7645DE27-F6F1-469E-B175-3E9E7AE03FC7}
+	EndGlobalSection
+EndGlobal
