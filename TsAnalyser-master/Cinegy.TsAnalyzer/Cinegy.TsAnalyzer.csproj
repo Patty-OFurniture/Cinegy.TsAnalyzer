@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>net6.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 		<RuntimeIdentifiers>win-x64;linux-x64</RuntimeIdentifiers>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<AssemblyName>tsanalyzer</AssemblyName>
@@ -28,7 +28,6 @@
 	<ItemGroup>
 	
 		<PackageReference Include="Cinegy.Srt.Wrapper" Version="1.0.9.43042" />
-		<PackageReference Include="Cinegy.TsAnalysis" Version="2.0.1-alpha" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="7.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
@@ -47,6 +46,10 @@
 		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.4.0" />
 		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.4.0" />
 		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol.Logs" Version="1.4.0-rc.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\TsAnalysis-master\Cinegy.TsAnalysis\Cinegy.TsAnalysis.csproj" />
 	</ItemGroup>
 
 
