@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vm0rAGfvs+Q=",
+  "success": true,
+  "projectFilePath": "D:\\Coding\\Cinegy\\Cinegy.SRT-master\\Cinegy.Srt.Send\\Cinegy.Srt.Send.csproj",
+  "expectedPackageFiles": [
+    "D:\\Coding\\NuGetPackages\\commandlineparser\\2.9.1\\commandlineparser.2.9.1.nupkg.sha512",
+    "D:\\Coding\\NuGetPackages\\srtsharp\\1.5.3.10064-alpha\\srtsharp.1.5.3.10064-alpha.nupkg.sha512"
+  ],
+  "logs": []
+}
