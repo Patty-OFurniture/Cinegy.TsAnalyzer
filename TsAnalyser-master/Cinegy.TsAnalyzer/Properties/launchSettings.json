@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TsAnalyzer": {
+      "commandName": "Project",
+      "commandLineArgs": "--sourceurl srt://srt.cinegy.com:9000 --metrics:OpenTelemetryPeriodicExportInterval=1000 --metrics:opentelemetryexporterenabled=true --metrics:opentelemetryendpoint=http://otel-local.cinegy.com --liveconsole=true"
+    }
+  }
+}
