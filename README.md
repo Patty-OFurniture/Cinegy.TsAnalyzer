@@ -1,3 +1,7 @@
+This repo comes from https://github.com/Cinegy/TsAnalyser and all of the dependencies I could find. SRT seems to be on github, the SRT Wrapper appears to not be open source.  I collected what I could, so you can build the project and fix bugs or modify behavior all in one solution.
+
+Updated to .NET 10.0.15, and OpenTelemetry had an old, vulnerable package.
+
 # Cinegy TS Analyzer Tool
 
 Use this tool to view inbound network, RTP, SRT and plain UDP TS packet details. 
