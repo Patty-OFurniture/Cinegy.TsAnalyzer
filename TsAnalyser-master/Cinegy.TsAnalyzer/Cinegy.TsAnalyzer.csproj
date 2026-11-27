@@ -28,24 +28,23 @@
 	<ItemGroup>
 	
 		<PackageReference Include="Cinegy.Srt.Wrapper" Version="1.0.9.43042" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
-		<PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
-		<PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
-		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
-		<PackageReference Include="NLog" Version="5.1.2" />
-		<PackageReference Include="NLog.Extensions.Hosting" Version="5.2.2" />
-		<PackageReference Include="NLog.Extensions.Logging" Version="5.2.2" />
-		<PackageReference Include="OpenTelemetry" Version="1.4.0" />
-		<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.4.0" />
-		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.4.0" />
-		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.4.0" />
-		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol.Logs" Version="1.4.0-rc.3" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Options" Version="10.0.15" />
+		<PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.15" />
+		<PackageReference Include="NLog" Version="5.5.1" />
+		<PackageReference Include="NLog.Extensions.Hosting" Version="5.5.0" />
+		<PackageReference Include="NLog.Extensions.Logging" Version="5.5.0" />
+		<PackageReference Include="OpenTelemetry" Version="1.21.0" />
+		<PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.21.0" />
+		<PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.21.0" />
+		<PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.21.0" />
 	</ItemGroup>
 
 	<ItemGroup>
