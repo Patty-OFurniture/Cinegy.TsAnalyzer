@@ -285,6 +285,8 @@ public class AnalysisService : IHost, IHostedService
 
         stream.Dispose();
 
+        _analyzer.Dispose();
+
         PrintConsoleFeedback();
         Console.WriteLine("Completed reading of file - hit enter to exit!");
         Console.ReadLine();
